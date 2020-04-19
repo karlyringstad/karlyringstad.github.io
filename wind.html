@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-​    <meta charset="UTF-8">
-​    <title>Latitude</title>
-​	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-​</head>
+  <head>
 ​
- 
-<body>
-    <!-- Navbar -->
+    <meta charset="UTF-8">​
+    <title>Wind Speed</title>
+​	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+​
+  </head>
+​
+  <body>
+    <!-- Start navbar -->
 	<div class="navigation">
 	  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">Latitude</a>
@@ -30,35 +30,32 @@
                 <a class="dropdown-item" href="wind.html">Wind Speed</a>
               </div>
             </li>
-            
             <li class="nav-item">
-			        <a class="nav-link" href="comparison.html">Comparison</a>
-			      </li>
-            
+            <a class="nav-link" href="comparison.html">Comparison</a>
+			</li>
             <li class="nav-item">
-			        <a class="nav-link" href="data.html">Data</a>
-			      </li>
+			  <a class="nav-link" href="data.html">Data</a>
+			</li>
           </ul>
         </div>
       </nav>
 	</div>
-  <!-- End Navbar -->
+    <!-- End navbar -->
 ​
-  <!-- Start Container -->
+    <!-- Start container -->
     <div class="container">
       <section class="row">
         <div class="col-lg-7 col-md-12">
           <div class="description-content">
-            <h1 class="description-header">Summary: Latitude vs. X</h1>
+            <h1 class="description-header">Wind Speed</h1>
             <hr>
-            <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="description-image">
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+            <img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed">
+            <p>There does not appear to be a relationship between city latitude and wind speed. However, the plot depicts that a majority of cities have a wind speed between 0mph and 10mph.</p>
           </div>
         </div>
         <div class="col-lg-5 col-md-12">
 ​
-          <!-- Start Visualizations-->
+          <!-- Start Visualizations -->
           <section id="imageNav-area">
             <div class="imageNav-content">
               <h2 class="imageNav-header">Visualizations</h2>
@@ -72,9 +69,9 @@
 				  </div>
 				  <div class="col-6">
                     <a href="humidity.html">
-				      <img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="imageNav-photo">
+                                    <img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="imageNav-photo">
 			        </a>
-                    </div>
+				  </div>
 				  <div class="col-6">
                     <a href="cloudiness.html">
 				      <img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness", title="Latitude vs. Cloudiness", class="imageNav-photo">
@@ -89,7 +86,7 @@
 			  </div>
             </div>
           </section>
-          <!-- End Visualizations-->
+          <!-- End Visualizations -->
 ​
         </div>
       </section>
@@ -101,25 +98,11 @@
       <div class="footer">&copy; Copyright Karly Ringstad 2020</div>
     </footer>
     <!-- End footer -->
-​
 
-	<!-- jquery, popper, bootstrap -->
+        <!-- jquery, popper, bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 ​
-</html>
-
-
-
-
-
-
-
-
-
-
-
-</body>
 </html>
